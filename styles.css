@@ -1,0 +1,319 @@
+
+html{
+  background-color: hsl(226, 43%, 10%);
+  font-family: 'Rubik';
+  overflow-x: hidden;
+
+}
+#main-container{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile-block{
+  margin: -11em 0em 0em 0.2em;
+}
+#user-block{
+  background-color: hsl(235, 78%, 50%);
+  border-radius: 1em;
+  width: 20em;
+  height: 9em;
+  margin: 0em 0em 0em 1.2em;
+  position: absolute;
+  z-index: 1;
+}
+.time-changer-blue-background{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1em;
+  width: 20em;
+  height: 13em;
+  margin: 2em 0em 3.8em 1.2em;
+  position: relative;
+  z-index: -1;
+}
+.time-changer-words{
+  display: flex;
+  margin: -4em 0em 0em 2.7em;
+  position: relative;
+  z-index: 1;
+}
+#jeremy-img{
+  width: 4em;
+  height: 4em;
+  outline-style: solid;
+  border-radius: 3em;
+  outline-color: white;
+  border-width: 1em;
+  margin: 0em 0em -5.5em 2em;
+  position: relative;
+}
+#report-p{
+  font-weight: 300;
+  font-size: 1em;
+  width: 9em;
+  height: 1em;
+  color: white;
+  margin: 1.6em 0em 0em 7em;
+}
+#name{
+  color: white;
+  width: 8em;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 0.3em 0em 0em 4.7em;
+  padding: 0em;
+}
+#grid-container-logos{
+  margin: 10em 0em 0em 0em;
+}
+.grid-block-time{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1em;
+  width: 20em;
+  height: 8em;
+  margin: -8em 0em 0em 1.4em;
+  position: absolute;
+}
+.grid-block-logos{
+  margin: 1.5em 0em 0em 1.4em;
+}
+#grid-block-work{
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+.logo-svg{
+  margin: 0em 0em 0em 14em;
+}
+#grid-block-play{
+  background-color: hsl(195, 74%, 62%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+#grid-block-study{
+  background-color: hsl(348, 100%, 68%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+#grid-block-exercise{
+  background-color: hsl(145, 58%, 55%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+#grid-block-social{
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+/*For some reason social and selfcare svg margins are acting retarded(alignment is a bit wrong for them) */
+.social-svg{
+  margin: 0em 0em 0em 14.5em;
+}
+#grid-block-selfcare{
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 1em;
+  width: 20em;
+  height: 10.2em;
+}
+.selfcare-svg{
+  margin: 0em 0em 0em 15em;
+}
+.three-dots{
+  position: absolute;
+  z-index: 1;
+  margin: 2em 0em 0em 17em;
+}
+.three-dots:hover{
+  fill: white;
+}
+.p-buttons{
+  color: hsl(235, 45%, 61%);
+  font-size: 1.1em;
+  margin: -2.2em 3em 0em 0em;
+}
+.p-buttons:hover{
+  color: white;
+}
+.subject-name-titles{
+  margin: 1.5em 0em 0em 1.4em;
+}
+.subject-current-time{
+  margin: 0.3em 0em 0em 0.9em;
+}
+.subject-previous-time{
+  margin: -1.2em 0em 0em 15.8em;
+}
+.Last-Week-Text{
+  color: white;
+  margin: -1.8em 0em 0em 10em;
+}
+
+@media (min-width: 1440px){
+  html{
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik';
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #main-container{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+  }
+  #grid-container-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #profile-block{
+    margin: 1.5em 0em -9em 0em;
+  }
+  #user-block{
+    background-color: hsl(235, 78%, 50%);
+    border-radius: 1em;
+    width: 18em;
+    height: 23em;
+    margin: 0em 0em 0em -20em;
+
+  }
+  .time-changer-blue-background{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1em;
+    width: 18em;
+    height: 34em;
+    margin: 0em 0em 0em -20em;
+    
+  }
+  .time-changer-words{
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 0;
+    width: 9em;
+    margin: -8em 0em 0em -18.5em;
+
+  }
+  #jeremy-img{
+    width: 5em;
+    height: 5em;
+    outline-style: solid;
+    border-radius: 3em;
+    outline-color: white;
+    border-width: 1em;
+    margin: 2.5em 0em 0em 2em;
+  }
+  #report-p{
+    font-weight: 300;
+    font-size: 1em;
+    width: 9em;
+    height: 1em;
+    color: white;
+    margin: 3em 0em 0em 2.5em;
+  
+  }
+  #name{
+    color: white;
+    width: 6em;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0.3em 0em 0em 1em;
+
+  }
+  #grid-container-logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80em;
+    height: 30em;
+    margin: 0em 0em 0em 20em;
+ 
+  }
+  .grid-block-logos{
+    margin: 1em 1em 6em 1em;
+
+  }
+  .grid-block-time{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1em;
+    width: 20em;
+    height: 13em;
+    margin: -4.8em 0em 0em -21em;
+  
+  }
+  #grid-block-work{
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  .logo-svg{
+    margin: 0em 0em 0em 14em;
+  }
+  #grid-block-play{
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  #grid-block-study{
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  #grid-block-exercise{
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  #grid-block-social{
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  /*social and selfcare svg margins are acting retarded(alignment is a bit wrong for them) */
+  .social-svg{
+    margin: 0em 0em 0em 14.5em;
+  }
+  #grid-block-selfcare{
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 1em;
+    width: 20em;
+    height: 10.2em;
+  }
+  .selfcare-svg{
+    margin: 0em 0em 0em 15em;
+  }
+  .three-dots{
+    position: absolute;
+    margin: 3em 0em 0em 16.5em;
+  }
+  .p-buttons{
+    color: hsl(235, 45%, 61%);
+    font-size: 1.1em;
+    margin: -2.2em 3em 0em 1em;
+  }
+  .p-buttons:hover{
+    color: white;
+  }
+  .subject-name-titles{
+    margin: 1.7em 0em 0em 2.2em;
+  }
+  .subject-current-time{
+    margin: 0.5em 0em 0em 0.9em;
+  }
+  .subject-previous-time{
+    margin: -1.1em 0em 0em 8.5em;
+  }
+  .Last-Week-Text{
+    color: white;
+    margin: 1em 0em 0em 2.7em;
+  }
+  
+}
